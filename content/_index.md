@@ -1,6 +1,6 @@
 ---
-title: "Welcome"
-description: "Main page"
+title: "ゆうびんきょくのホームページ"
+description: "ゆうびんきょくのサイトへようこそ！！"
 ---
 
 {{< lead >}}
@@ -11,7 +11,7 @@ description: "Main page"
   loop=true
 >}}
 ゆうびんきょくのサイトへようこそ！！
-ゆっくりしていってね！！！
+ゆっくりしていってね！！
 {{< /typeit >}}
 {{< /lead >}}
 
@@ -80,12 +80,12 @@ description: "Main page"
         <tr>
         <th scope="row">📚 好きな本</th>
         <td>
-            <li></li>
             <li>『きみの友だち』 重松清</li>
             <li>『星に帰れよ』 新胡桃</li>
             <li>『ガリレオ』シリーズ 東野圭吾</li>
             <li>『プラチナデータ』東野圭吾</li>
             <li>『そして生活はつづく』星野源</li>
+            読んだ本全然覚えてないので最近読んだやつばっか()
         </td>
     </tr>
 </table>
