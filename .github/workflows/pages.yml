@@ -1,24 +1,43 @@
-name: GitHub Pages
+# Hugo サイトの構築と GitHub Pages へのデプロイのサンプルワークフロー
+name: Blowfish Docs Deploy
 
 on:
+  # デフォルトブランチを対象としたプッシュで実行される
   push:
-    branches:
-      - main
+    branches: ["main"]
+
+  # アクションタブからワークフローを手動で実行することもできる
+  workflow_dispatch:
+
+# GITHUB_TOKEN のパーミッションを設定し、GitHub Pages へのデプロイを許可する。
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 1つの同時配備を許可する
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# デフォルトはbash
+defaults:
+  run:
+    shell: bash
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  # ビルドジョブ
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.102.3
     steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Setup Pages
@@ -32,14 +51,10 @@ jobs:
         run: |
           hugo --minify
 
-  # デプロイメント・ジョブ
-  deploy:
-    environment:
-      name: github-pages
-      url: https://yuubinnkyoku.github.io/
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_branch: main
+            publish_dir: ./public
