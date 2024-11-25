@@ -8,7 +8,7 @@ title = "〒«ゆうびんきょく»のホームページ"
   displayName = "JA"
   isoCode = "ja"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006 January 2"
   logo = "img/icon.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "〒«ゆうびんきょく»"
@@ -20,7 +20,7 @@ title = "〒«ゆうびんきょく»のホームページ"
    image = "img/icon.png"
    imageQuality = 96
    headline = "ツイ廃マリカ勢ガジェオタプログラマー中学生"
-#   bio = ""
+#   bio = "ツイ廃マリカ勢ガジェオタプログラマー中学生"
   links = [
 
     { twitter = "https://twitter.com/yuubinnkyoku_mk" },
