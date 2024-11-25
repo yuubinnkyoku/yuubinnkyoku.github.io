@@ -101,6 +101,7 @@ data: {
 # Figure(画像挿入)
 
 ![Abstract purple artwork](abstract.jpg "Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)")
+<br>
 
 # ギャラリー
 
@@ -109,3 +110,50 @@ data: {
   <img src="gallery/dendendirect.png" class="grid-w33" />
   <img src="gallery/ライブ.png" class="grid-w33" />
 {{< /gallery >}}
+<br>
+
+# GitHubカード
+
+{{< github repo="yuubinnkyoku/yuubinnkyoku" >}}
+<br>
+
+# アイコン
+{{< icon "github" >}}
+{{< icon "twitter" >}}
+{{< icon "youtube" >}}
+<br>
+
+# 数式(Katex)
+{{< katex >}}
+\\(X^n+Y^{n+1}=Z^{n+2}\\)が成立する自然数の組み合わせ\\((X,Y,Z)\\)がどんな自然数\\(n\\)に対しても存在することを証明せよ。
+
+$$
+Proof
+$$
+$$
+e^{i\pi} = -1
+$$
+$$
+\sin\times\div\cos\theta
+$$
+$$
+\frac{\pi_2}{\pi_{1_2}}
+$$
+$$
+\pi\quad\pi\qquad\pi\hspace{50pt}\pi
+$$
+$$
+\overbrace{AB}\Overrightarrow{AB}\lBrace\rBrace
+$$
+
+$$
+Q.E.D.
+$$
+
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$
+
+## Katexについて
+https://blowfish.page/ja/samples/mathematical-notation/
+https://katex.org/docs/supported.html#style-color-size-and-font
