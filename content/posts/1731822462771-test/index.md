@@ -4,8 +4,6 @@ date: 2024-11-17
 draft: false
 description: "test"
 tags: ["test"]
-editURL: https://github.com/yuubinnkyoku/yuubinnkyoku.github.io/tree/main/content/posts/1731822462771-test
-
 ---
 
 {{< lead >}}
