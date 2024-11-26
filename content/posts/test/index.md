@@ -268,3 +268,6 @@ With other shortcodes
 <br>
 {{< keyword icon="youtube" >}} コントロールなし {{< /keyword >}}
 {{< youtubeLite id="p89pkXj93Ak" label="実況動画" params="start=130&end=10&controls=0" >}}
+
+## Twitter
+{{< twitter user="yuubinnkyoku_mk" id="1754875197616713978" >}}
