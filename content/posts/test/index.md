@@ -269,5 +269,18 @@ With other shortcodes
 {{< keyword icon="youtube" >}} コントロールなし {{< /keyword >}}
 {{< youtubeLite id="p89pkXj93Ak" label="実況動画" params="start=130&end=10&controls=0" >}}
 
+## Youtube
+{{< youtube p89pkXj93Ak >}}
+
+(違いはおそらく)ないです。
+
 ## Twitter
 {{< twitter user="yuubinnkyoku_mk" id="1754875197616713978" >}}
+
+## Twitter Simple
+{{< twitter_simple user="yuubinnkyoku_mk" id="1754875197616713978" >}}
+あれ
+できないな
+
+## Gist
+{{< gist yuubinnkyoku d2d9ce0ce4907160cac19324930b8e88 >}}
