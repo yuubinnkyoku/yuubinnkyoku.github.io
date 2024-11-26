@@ -10,7 +10,7 @@ tags: ["test"]
 [ShortCord](https://blowfish.page/ja/docs/shortcodes/)機能を使ってみる！！
 {{< /lead >}}
 
-# アラート
+## アラート
 
 {{< alert icon="twitter" iconColor="#4a99e9" textColor="#b2b2b2" >}}
 Twitterで[フォロー](https://twitter.com/intent/follow?screen_name=yuubinnkyoku_mk)してね！
@@ -18,13 +18,13 @@ Twitterで[フォロー](https://twitter.com/intent/follow?screen_name=yuubinnky
 
 <br>
 
-# 記事へのリンク
+## 記事へのリンク
 
 {{< article link="/posts/1731748107742-githubprofile/" >}}
 
 <br>
 
-# バッジ
+## バッジ
 
 {{< badge >}}
 New article!
@@ -32,7 +32,7 @@ New article!
 
 <br>
 
-# ボタン
+## ボタン
 
 {{< button href="#button" target="_self" >}}
 ボタンを押す
@@ -41,13 +41,13 @@ New article!
 <br>
 <br>
 
-# スライドショー
+## スライドショー
 
 {{< carousel images="gallery/*" >}}
 
 <br>
 
-# 棒グラフ
+## 棒グラフ
 
 {{< chart >}}
 type: 'bar',
@@ -62,7 +62,7 @@ data: {
 
 <br>
 
-# 折れ線グラフ
+## 折れ線グラフ
 
 {{< chart >}}
 type: 'line',
@@ -77,7 +77,7 @@ data: {
 {{< /chart >}}
 <br>
 
-# 円グラフ
+## 円グラフ
 
 {{< chart >}}
 type: 'doughnut',
@@ -98,16 +98,16 @@ data: {
 {{< /chart >}}
 <br>
 
-# Code Import
+## Code Import
 
 {{< codeimporter url="https://raw.githubusercontent.com/tsukuba-denden/tentative/refs/heads/main/index.html" type="txt" startLine="2" endLine="6" >}}
 
-# Figure(画像挿入)
+## Figure(画像挿入)
 
 ![Abstract purple artwork](abstract.jpg "Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)")
 <br>
 
-# ギャラリー
+## ギャラリー
 
 {{< gallery >}}
   <img src="gallery/denden.png" class="grid-w33" />
@@ -116,18 +116,18 @@ data: {
 {{< /gallery >}}
 <br>
 
-# GitHubカード
+## GitHubカード
 
 {{< github repo="yuubinnkyoku/yuubinnkyoku" >}}
 <br>
 
-# アイコン
+## アイコン
 {{< icon "github" >}}
 {{< icon "twitter" >}}
 {{< icon "youtube" >}}
 <br>
 
-# 数式(Katex)
+## 数式(Katex)
 
 {{< katex >}}
 \\(X^n+Y^{n+1}=Z^{n+2}\\)が成立する自然数の組み合わせ\\((X,Y,Z)\\)がどんな自然数\\(n\\)に対しても存在することを証明せよ。
@@ -165,11 +165,11 @@ $$
 αβγδϵζηθικλμνξoπρστυϕχψωεϑϖϱςφϝ
 $$
 
-## Katexについて
+### Katexについて
 https://blowfish.page/ja/samples/mathematical-notation/
 https://katex.org/docs/supported.html#style-color-size-and-font
 
-# キーワード
+## キーワード
 {{< keywordList >}}
 {{< keyword >}} *またしても* 何も知らない {{< /keyword >}}ゆうびんきょくさん
 {{< keyword icon="github" >}} I am post. {{< /keyword >}}
@@ -179,16 +179,16 @@ https://katex.org/docs/supported.html#style-color-size-and-font
 {{< keyword >}} *Standalone* skill {{< /keyword >}}
 <br>
 
-# リード文
+## リード文
 {{< lead >}}
 人生でレモンをもらったら、レモネードを作ろう。
 {{< /lead >}}
 
-# 記事のリスト
+## 記事のリスト
 {{< list limit=2 >}}
 {{< list cardView=true limit=2 >}}
 
-# 右から左に書く文字
+## 右から左に書く文字
 - This is an markdown list.
 - Its per default a LTR direction
 {{% rtl %}}
@@ -200,10 +200,10 @@ https://katex.org/docs/supported.html#style-color-size-and-font
 - こんにちはゆうびんきょく
 {{% /rtl %}}
 
-# MarkDownを取ってくる
+## MarkDownを取ってくる
 {{< mdimporter url="https://raw.githubusercontent.com/yuubinnkyoku/yuubinnkyoku/master/README.md" >}}
 
-# mermaid(フローチャート)
+## mermaid(フローチャート)
 
 {{< mermaid >}}
 graph LR;
@@ -212,11 +212,11 @@ B-->C[Profit]
 {{< /mermaid >}}
 <br>
 
-# swatches(カラーパレット)
+## swatches(カラーパレット)
 {{< swatches "#64748b" "#3b82f6" "#06b6d4" >}}
 <br>
 
-# タイムライン
+## タイムライン
 {{< timeline >}}
 
 {{< timelineItem icon="github" header="ヘッダー" badge="badge test" subheader="サブヘッダー" >}}
@@ -249,7 +249,7 @@ With other shortcodes
 
 {{< /timeline >}}
 
-# タイピング
+## タイピング
 {{< typeit 
   tag=h6
   speed=50
@@ -262,7 +262,7 @@ With other shortcodes
 {{< /typeit >}}
 <br>
 
-# Youtube Lite
+## Youtube Lite
 {{< keyword icon="youtube" >}} コントロールあり {{< /keyword >}}
 {{< youtubeLite id="p89pkXj93Ak" label="実況動画" params="start=130&end=293&controls=1&loop=1" >}}
 <br>
