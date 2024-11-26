@@ -27,15 +27,22 @@
   weight = 30
 
 [[main]]
+  identifier = "github"
   pre = "github"
   url = "https://github.com/yuubinnkyoku"
   weight = 40
 
 [[main]]
+  identifier = "twitter"
   pre = "twitter"
-  name = " "
   url = "https://twitter.com/yuubinnkyoku_mk"
-  weight = 50
+  weight = 41
+
+  [[main]]
+  identifier = "youtube"
+  pre = "youtube"
+  url = "https://youtube.com/@yuubinnkyoku"
+  weight = 42
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
