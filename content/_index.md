@@ -32,6 +32,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
             <ul>
                 <li>ROG Zephyrus G14 GA401QC</li>
                 <li>Google Pixel 6a</li>
+                <li>Xiaomi Smart Band 8</li>
             </ul>
         </td>
     </tr>

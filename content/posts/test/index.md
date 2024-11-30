@@ -20,7 +20,7 @@ Twitterで[フォロー](https://twitter.com/intent/follow?screen_name=yuubinnky
 
 ## 記事へのリンク
 
-{{< article link="/posts/1731748107742-githubprofile/" >}}
+{{< article link="/posts/githubprofile/" >}}
 
 <br>
 
