@@ -38,7 +38,7 @@
   url = "https://twitter.com/yuubinnkyoku_mk"
   weight = 41
 
-  [[main]]
+[[main]]
   identifier = "youtube"
   pre = "youtube"
   url = "https://youtube.com/@yuubinnkyoku"
