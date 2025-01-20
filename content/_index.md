@@ -38,11 +38,13 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     </tr>
     <tr>
         <th scope="row">🚗 MK8DX</th>
-        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  Silver <br> VR35000 </td>
+        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  Silver <br> VR38000 </td>
     </tr>
     <tr>
         <th scope="row">🧑‍💻 競技プログラミング　</th>
-        <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 <br> JOI2023/2024 予選Bランク </td>
+        <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 
+        <br> JOI2023/2024 予選Bランク
+        <br> JOI2024/2025 予選Bランク</td>
     </tr>
         <tr>
         <th scope="row">🧑‍💻 競技数学</th>
