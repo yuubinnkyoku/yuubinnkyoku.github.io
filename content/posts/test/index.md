@@ -274,8 +274,8 @@ With other shortcodes
 
 (違いはおそらく)ないです。
 
-## Twitter
-{{< twitter user="yuubinnkyoku_mk" id="1754875197616713978" >}}
+## Twitter→X
+{{< x user="yuubinnkyoku_mk" id="1754875197616713978" >}}
 
 ## Twitter Simple
 {{< twitter_simple user="yuubinnkyoku_mk" id="1754875197616713978" >}}
@@ -284,3 +284,6 @@ With other shortcodes
 
 ## Gist
 {{< gist yuubinnkyoku d2d9ce0ce4907160cac19324930b8e88 >}}
+
+## QR
+{{< qr text="ﾔｼﾞｭｾﾝﾊﾟｲｲｷｽｷﾞﾝｲｸｲｸｱｯｱｯｱｯｱｰﾔﾘﾏｽﾈ" />}}
