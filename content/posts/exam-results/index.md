@@ -34,7 +34,6 @@ data: {
   options: {
     scales: {
       r: {
-        // 最小値・最大値
         min: 0,
         max: 60,
         // ポイントラベル
