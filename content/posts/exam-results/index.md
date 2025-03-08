@@ -36,9 +36,7 @@ data: {
       r: {
         min: 0,
         max: 60,
-        // ポイントラベル
-        pointLabels: {
-        },
+
       },
     },
   },
