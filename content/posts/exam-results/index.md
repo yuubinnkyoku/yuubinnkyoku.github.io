@@ -29,10 +29,7 @@ data: {
     datasets: [{
       label: 'Product',
       data: [30, 40, 30, 40, 50],
-      // データライン
-      borderColor: 'green',
-      borderWidth: 2,
-    }],
+    }]
   },
   options: {
     scales: {
@@ -40,22 +37,8 @@ data: {
         // 最小値・最大値
         min: 0,
         max: 60,
-        // 背景色
-        backgroundColor: 'lightyellow',
-        // グリッドライン
-        grid: {
-          color: 'lightseagreen',
-        },
-        // アングルライン
-        angleLines: {
-          color: 'brown',
-        },
         // ポイントラベル
         pointLabels: {
-          color: 'blue',
-          backdropColor: '#ddf',
-          backdropPadding: 5,
-          padding: 20,
         },
       },
     },
