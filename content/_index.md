@@ -54,28 +54,32 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <th scope="row">📃 言語</th>
         <td>日本語、English(little)、Python、C++</td>
     </tr>
-        <tr>
+    <tr>
         <th scope="row">📺 好きなドラマ</th>
         <td>
-            <li>MIU404</li>
-            <li>CRISIS</li>
-            <li>パンドラの果実</li>
-            <li>ガリレオ</li>
-            <li>イチケイのカラス</li>
-            <li>TOKYO MER～走る緊急救命室～</li>
-            <li>コード・ブルー</li>
+            <ul>
+                <li>MIU404</li>
+                <li>CRISIS</li>
+                <li>パンドラの果実</li>
+                <li>ガリレオ</li>
+                <li>イチケイのカラス</li>
+                <li>TOKYO MER～走る緊急救命室～</li>
+                <li>コード・ブルー</li>
+            </ul>
         </td>
     </tr>
         </tr>
         <tr>
         <th scope="row">🎧 好きな音楽家</th>
         <td>
-            <li>星野源</li>
-            <li>米津玄師</li>
-            <li>原口沙輔</li>
-            <li>オーイシマサヨシ</li>
-            <li>Nujabes</li>
-            <li>ヒャダイン</li>
+            <ul>
+                <li>星野源</li>
+                <li>米津玄師</li>
+                <li>原口沙輔</li>
+                <li>オーイシマサヨシ</li>
+                <li>Nujabes</li>
+                <li>ヒャダイン</li>
+            </ul>
         </td>
     </tr>
         </tr>
@@ -83,11 +87,13 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <tr>
         <th scope="row">📚 好きな本</th>
         <td>
-            <li>『きみの友だち』 重松清</li>
-            <li>『星に帰れよ』 新胡桃</li>
-            <li>『ガリレオ』シリーズ 東野圭吾</li>
-            <li>『プラチナデータ』東野圭吾</li>
-            <li>『そして生活はつづく』星野源</li>
+            <ul>
+                <li>『きみの友だち』 重松清</li>
+                <li>『星に帰れよ』 新胡桃</li>
+                <li>『ガリレオ』シリーズ 東野圭吾</li>
+                <li>『プラチナデータ』東野圭吾</li>
+                <li>『そして生活はつづく』星野源</li>
+            </ul>
             読んだ本全然覚えてないので最近読んだやつばっか()
         </td>
     </tr>
