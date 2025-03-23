@@ -38,7 +38,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     </tr>
     <tr>
         <th scope="row">🚗 MK8DX</th>
-        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  Silver <br> VR38000 </td>
+        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  Silver <br> VR40000 </td>
     </tr>
     <tr>
         <th scope="row">🧑‍💻 競技プログラミング　</th>
@@ -47,7 +47,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <br> JOI2024/2025 予選Bランク</td>
     </tr>
         <tr>
-        <th scope="row">🧑‍💻 競技数学</th>
+        <th scope="row">🔢 競技数学</th>
         <td><a href= "https://onlinemathcontest.com/users/yuubinnkyoku"> OMC </a> 茶 </td>
     </tr>
         <tr>
