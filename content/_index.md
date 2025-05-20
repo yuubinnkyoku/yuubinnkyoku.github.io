@@ -20,7 +20,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
 <table class="about-me">
     <tr>
         <th scope="row">🎒 学年</th>
-        <td>中学2年生 </td>
+        <td>中学3年生 </td>
     </tr>
     <tr>
         <th scope="row">🏫 部活</th>
@@ -62,9 +62,6 @@ description: "ゆうびんきょくのサイトへようこそ！！"
                 <li>CRISIS</li>
                 <li>パンドラの果実</li>
                 <li>ガリレオ</li>
-                <li>イチケイのカラス</li>
-                <li>TOKYO MER～走る緊急救命室～</li>
-                <li>コード・ブルー</li>
             </ul>
         </td>
     </tr>
