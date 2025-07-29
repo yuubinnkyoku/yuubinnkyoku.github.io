@@ -45,6 +45,11 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 
         <br> JOI2023/2024 予選Bランク
         <br> JOI2024/2025 予選Bランク</td>
+        <br>
+            <div class="atcoder-widget" data-user="your_atcoder_id">
+                    <script async src="https://cdn.jsdelivr.net/npm/atcoder-widget@0.0.3/dist/widget.js"></script>
+            </div>
+        </br>
     </tr>
         <tr>
         <th scope="row">🔢 競技数学</th>
