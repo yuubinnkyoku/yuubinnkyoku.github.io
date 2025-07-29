@@ -51,8 +51,6 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 
         <br> JOI2023/2024 予選Bランク
         <br> JOI2024/2025 予選Bランク</td>
-        <br>
-        <a href="https://atcoder.jp/users/yuubinnkyoku" target="_blank" title="yuubinnkyoku"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fyuubinnkyoku" /></a>
         </br>
     </tr>
         <tr>
