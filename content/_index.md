@@ -37,6 +37,12 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         </td>
     </tr>
     <tr>
+        <th scope="row">🚗 MKWorld</th>
+        <td>
+            VR8800
+        </td>
+    </tr>
+    <tr>
         <th scope="row">🚗 MK8DX</th>
         <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  S13 Gold <br> VR42000 </td>
     </tr>
@@ -46,9 +52,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <br> JOI2023/2024 予選Bランク
         <br> JOI2024/2025 予選Bランク</td>
         <br>
-            <div class="atcoder-widget" data-user="yuubinnkyoku">
-                    <script async src="https://cdn.jsdelivr.net/npm/atcoder-widget@0.0.3/dist/widget.js"></script>
-            </div>
+        <a href="https://atcoder.jp/users/yuubinnkyoku" target="_blank" title="yuubinnkyoku"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fyuubinnkyoku" /></a>
         </br>
     </tr>
         <tr>
