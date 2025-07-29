@@ -18,7 +18,7 @@ series_order: 8
 <!-- prettier-ignore-start -->
 | 参数        | 功能                                                                                                                             |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `icon`      | **可选** 显示在左侧的图标。<br>**默认：** `exclaimation triangle icon` (查看[图标简码](#icon)，了解有关使用图标的更多详细信息。) |
+| `icon`      | **可选** 显示在左侧的图标。<br>**默认：** `exclaimation triangle icon` (查看[图标简码](#图标)，了解有关使用图标的更多详细信息。) |
 | `iconColor` | **可选** 基本 CSS 样式中图标的颜色。<br>可以是十六进制值 (`#FFFFFF`) 或颜色名称 (`white`)<br>默认情况下由当前配色方案决定。      |
 | `cardColor` | **可选** 基本 CSS 样式中卡片背景的颜色。<br>可以是十六进制值 (`#FFFFFF`) 或颜色名称 (`white`)<br>默认情况下由当前配色方案决定。  |
 | `textColor` | **可选** 基本 CSS 样式中文本的颜色。<br>可以是十六进制值 (`#FFFFFF`) 或颜色名称 (`white`)<br>默认情况下由当前配色方案决定。      |
@@ -269,6 +269,27 @@ Blowfish 还支持使用标准 Markdown 语法自动转换图像。只需使用�
 ![Alt text](image.jpg "Image caption")
 ```
 
+## Forgejo Card
+
+`forgejo` allows you to quickly link a Forgejo repository via the forgejo API, providing real-time updates on stats such as stars and forks.
+
+<!-- prettier-ignore-start -->
+| Parameter | Description                                           |
+| --------- | ----------------------------------------------------- |
+| `repo`    | [String] forgejo repo in the format of `username/repo`|
+| `server`  | [String] server URL like `https://v11.next.forgejo.org`|
+<!-- prettier-ignore-end -->
+
+**Example 1:**
+
+```md
+{{</* forgejo server="https://v11.next.forgejo.org" repo="a/mastodon" */>}}
+```
+{{< forgejo server="https://v11.next.forgejo.org" repo="a/mastodon" >}}
+
+<br/><br/><br/>
+
+
 **例如：**
 
 ```md
@@ -346,6 +367,53 @@ Blowfish 还支持使用标准 Markdown 语法自动转换图像。只需使用�
 
 <br/><br/><br/>
 
+## Gist
+
+`gist` 短代码允许你通过指定 Gist 用户名、ID 以及可选的特定文件，直接将 GitHub Gist 嵌入到内容中。
+
+| 参数        | 描述                       |
+| --------- | ------------------------ |
+| `[0]`     | \[字符串] GitHub 用户名        |
+| `[1]`     | \[字符串] Gist ID           |
+| `[2]`（可选） | \[字符串] Gist 中要嵌入的文件名（可选） |
+
+**示例 1：嵌入整个 Gist**
+
+```md
+{{</* gist "octocat" "6cad326836d38bd3a7ae" */>}}
+```
+
+
+**示例 2：嵌入 Gist 中的特定文件**
+
+```md
+{{</* gist "rauchg" "2052694" "README.md" */>}}
+```
+
+<br/><br/><br/>
+
+
+## Gitea 卡片
+
+`gitea` 允许你通过 gitea API 快速链接一个 Gitea 仓库，提供诸如 stars 和 forks 等统计数据的实时更新。
+
+<!-- prettier-ignore-start -->
+| 参数       | 描述                                      |
+| -------- | --------------------------------------- |
+| `repo`   | \[字符串] 以 `用户名/仓库名` 格式表示的 gitea 仓库       |
+| `server` | \[字符串] 服务器 URL，如 `https://git.fsfe.org` |
+<!-- prettier-ignore-end -->
+
+**示例 1：**
+
+```md
+{{</* gitea server="https://git.fsfe.org" repo="FSFE/fsfe-website" */>}}
+```
+
+{{< gitea server="https://git.fsfe.org" repo="FSFE/fsfe-website" >}}
+
+<br/><br/><br/>
+
 ## GitHub 卡片
 
 `github` 允许您快速链接到 github Repo，同时显示和更新有关它的实时统计信息，例如它的 star 和 fork 数。
@@ -416,17 +484,17 @@ Blowfish 还支持使用标准 Markdown 语法自动转换图像。只需使用�
 
 要在文章中加入数学表达式，只需将简码放在任意位置即可。每篇文章只需加入一次，KaTeX 将自动呈现该页面上的任何标记。支持内联和块表示法。
 
-可以通过将表达式包装在 `\\(` 和 `\\)` 分隔符中来生成内联表示法。或者，可以使用 `$$` 分隔符生成块符号。
+可以通过将表达式包装在 `\(` 和 `\)` 分隔符中来生成内联表示法。或者，可以使用 `$$` 分隔符生成块符号。
 
 **例如：**
 
 ```md
 {{</* katex */>}}
-\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
+\(f(a,b,c) = (a^2+b^2+c^2)^3\)
 ```
 
 {{< katex >}}
-\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
+\(f(a,b,c) = (a^2+b^2+c^2)^3\)
 
 查看 [数学符号示例]({{< ref "mathematical-notation" >}}) 页面以获取更多示例。
 
@@ -679,17 +747,17 @@ With other shortcodes
 
 {{< timelineItem icon="github" header="header" badge="badge test" subheader="subheader" >}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 
-{{</ timelineItem >}}
+{{< /timelineItem >}}
 
 
-{{< timelineItem icon="code" header="Another Awesome Header" badge="date - present" subheader="Awesome Subheader">}}
+{{< timelineItem icon="code" header="Another Awesome Header" badge="date - present" subheader="Awesome Subheader" >}}
 With html code
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
-{{</ timelineItem >}}
+{{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="Shortcodes" badge="AWESOME" >}}
 With other shortcodes
@@ -702,12 +770,13 @@ With other shortcodes
   <img src="gallery/06.jpg" class="grid-w33" />
   <img src="gallery/07.jpg" class="grid-w33" />
 {{< /gallery >}}
+{{< /timelineItem >}}
+
 {{< timelineItem icon="code" header="Another Awesome Header">}}
 {{< github repo="nunocoracao/blowfish" >}}
-{{</ timelineItem >}}
-{{</ timelineItem >}}
+{{< /timelineItem >}}
 
-{{</ timeline >}}
+{{< /timeline >}}
 
 
 <br/><br/><br/>
