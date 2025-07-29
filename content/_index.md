@@ -32,16 +32,16 @@ description: "ゆうびんきょくのサイトへようこそ！！"
             <ul>
                 <li>ROG Zephyrus G14 GA401QC</li>
                 <li>Google Pixel 6a</li>
-                <li>Xiaomi Smart Band 8</li>
+                <li>Nintendo Switch 2</li>
             </ul>
         </td>
     </tr>
     <tr>
         <th scope="row">🚗 MK8DX</th>
-        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  Silver <br> VR40000 </td>
+        <td><a href= "https://www.mk8dx-lounge.com/PlayerDetails/40789"> Lounge </a>  S13 Gold <br> VR42000 </td>
     </tr>
     <tr>
-        <th scope="row">🧑‍💻 競技プログラミング　</th>
+        <th scope="row">🧑‍💻 競技プログラミング</th>
         <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 
         <br> JOI2023/2024 予選Bランク
         <br> JOI2024/2025 予選Bランク</td>
@@ -75,7 +75,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
                 <li>原口沙輔</li>
                 <li>オーイシマサヨシ</li>
                 <li>Nujabes</li>
-                <li>ヒャダイン</li>
+                <li>Creepy Nuts</li>
             </ul>
         </td>
     </tr>
