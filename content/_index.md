@@ -39,7 +39,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     <tr>
         <th scope="row">🚗 MKWorld</th>
         <td>
-            VR8800
+            Peak VR 9000
         </td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
             <ul>
                 <li>MIU404</li>
                 <li>CRISIS</li>
-                <li>パンドラの果実</li>
+                <li>VIVANT</li>
                 <li>ガリレオ</li>
             </ul>
         </td>
