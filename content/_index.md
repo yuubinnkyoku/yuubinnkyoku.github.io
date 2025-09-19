@@ -81,7 +81,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
                 <li>米津玄師</li>
                 <li>原口沙輔</li>
                 <li>オーイシマサヨシ</li>
-                <li>Nujabes</li>
+                <li>藤井風</li>
                 <li>Creepy Nuts</li>
             </ul>
         </td>
