@@ -31,7 +31,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <td>
             <ul>
                 <li>ROG Zephyrus G14 GA401QC</li>
-                <li>Google Pixel 6a</li>
+                <li>nubia Z80 Ultra</li>
                 <li>Nintendo Switch 2</li>
             </ul>
         </td>
