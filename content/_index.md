@@ -20,11 +20,11 @@ description: "ゆうびんきょくのサイトへようこそ！！"
 <table class="about-me">
     <tr>
         <th scope="row">🎒 学年</th>
-        <td>中学3年生 </td>
+        <td>高校1年生 </td>
     </tr>
     <tr>
         <th scope="row">🏫 部活</th>
-        <td><a href= "https://tsukuba-denden.github.io/" >電子電脳技術研究会</a> </td>
+        <td>TCA</td>
     </tr>
     <tr>
         <th scope="row">💻 デバイス</th>
@@ -39,7 +39,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     <tr>
         <th scope="row">🚗 MKWorld</th>
         <td>
-            Peak VR 9000
+            Peak VR 9000 <br> <a href="https://lounge.mkcentral.com/mkworld/PlayerDetails/40789">Lounge S2 Silver</a>
         </td>
     </tr>
     <tr>
