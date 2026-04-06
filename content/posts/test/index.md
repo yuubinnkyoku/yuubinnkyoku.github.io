@@ -277,6 +277,9 @@ With other shortcodes
 ## Twitter
 {{< twitter user="yuubinnkyoku_mk" id="1754875197616713978" >}}
 
+これ2000行ってた気がするけど
+減ってるな
+
 {{< twitter user="yuubinnkyoku_mk" id="1768980659090153811">}}
 
 {{< twitter user="yuubinnkyoku_mk" id="2036303901620940849">}}
