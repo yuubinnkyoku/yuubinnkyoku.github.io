@@ -274,8 +274,14 @@ With other shortcodes
 
 (違いはおそらく)ないです。
 
-## Twitter→X
-{{< x user="yuubinnkyoku_mk" id="1754875197616713978" >}}
+## Twitter
+{{< twitter user="yuubinnkyoku_mk" id="1754875197616713978" >}}
+
+{{< twitter user="yuubinnkyoku_mk" id="1768980659090153811">}}
+
+{{< twitter user="yuubinnkyoku_mk" id="2036303901620940849">}}
+
+
 
 ## Twitter Simple
 {{< twitter_simple user="yuubinnkyoku_mk" id="1754875197616713978" >}}
