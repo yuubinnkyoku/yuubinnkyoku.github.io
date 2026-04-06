@@ -39,7 +39,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     <tr>
         <th scope="row">🚗 MKWorld</th>
         <td>
-            Peak VR 9000 <br> <a href="https://lounge.mkcentral.com/mkworld/PlayerDetails/40789">Lounge S2 Silver</a>
+            Peak VR 9000 <br> <a href="https://lounge.mkcentral.com/mkworld/PlayerDetails/40789">Lounge</a> S2 Silver
         </td>
     </tr>
     <tr>
@@ -50,7 +50,8 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <th scope="row">🧑‍💻 競技プログラミング</th>
         <td><a href= "https://atcoder.jp/users/yuubinnkyoku"> AtCoder </a> 茶 
         <br> JOI2023/2024 予選Bランク
-        <br> JOI2024/2025 予選Bランク</td>
+        <br> JOI2024/2025 予選Bランク
+        <br> JOI2025/2026 予選Bランク</td>
         </br>
     </tr>
         <tr>
@@ -78,11 +79,27 @@ description: "ゆうびんきょくのサイトへようこそ！！"
         <td>
             <ul>
                 <li>星野源</li>
-                <li>米津玄師</li>
                 <li>原口沙輔</li>
-                <li>オーイシマサヨシ</li>
                 <li>藤井風</li>
                 <li>Creepy Nuts</li>
+                <li>STUTS</li>
+                <li>Yellow Magic Orchestra</li>
+                <li>窓辺リカ</li>
+                <li>higma</li>
+                <li>オーイシマサヨシ</li>
+                <li>Mega Shinnosuke</li>
+                <li>椎名林檎</li>
+                <li>いよわ</li>
+                <li>椎乃味酬</li>
+                <li>米津玄師</li>
+                <li>稲葉曇</li>
+                <li>忌野清志郎</li>
+                <li>Tele</li>
+                <li>スーパー登山部</li>
+                <li>tofubeats</li>
+                <li>Billyrrom</li>
+                <li>かてぃん</li>
+                <li>髭男</li>
             </ul>
         </td>
     </tr>
@@ -98,7 +115,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
                 <li>『プラチナデータ』東野圭吾</li>
                 <li>『そして生活はつづく』星野源</li>
             </ul>
-            読んだ本全然覚えてないので最近読んだやつばっか()
+            2年ぐらい前に読んだやつばっか()
         </td>
     </tr>
 </table>
