@@ -24,7 +24,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     </tr>
     <tr>
         <th scope="row">🏫 部活</th>
-        <td>TCA</td>
+        <td>Toin Computer Association</td>
     </tr>
     <tr>
         <th scope="row">💻 デバイス</th>
@@ -39,7 +39,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
     <tr>
         <th scope="row">🚗 MKWorld</th>
         <td>
-            Peak VR 9000 <br> <a href="https://lounge.mkcentral.com/mkworld/PlayerDetails/40789">Lounge</a> S2 Silver
+            Peak VR 9240 <br> <a href="https://lounge.mkcentral.com/mkworld/PlayerDetails/40789">Lounge</a> S2 Silver
         </td>
     </tr>
     <tr>
@@ -100,6 +100,7 @@ description: "ゆうびんきょくのサイトへようこそ！！"
                 <li>Billyrrom</li>
                 <li>かてぃん</li>
                 <li>髭男</li>
+                <li>サカナクション</li>
             </ul>
         </td>
     </tr>
